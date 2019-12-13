@@ -6,6 +6,7 @@ import { apolloClient } from './apollo';
 
 import App from './App.vue';
 import router from './router';
+import './registerServiceWorker'
 
 
 const apolloProvider = new VueApollo({
