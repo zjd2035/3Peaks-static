@@ -20,6 +20,7 @@ import Button from '@/components/forms/Button.vue';
 export default {
   name: 'landing-page',
   data() {
+    return {};
   },
   components: {
     Button,

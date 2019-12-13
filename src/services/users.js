@@ -11,7 +11,7 @@ query currentUserQuery {
 
 export const SIGNUP_MUTATION = gql`
 mutation SignUpMutation($email: String!, $password: String!, $recaptchaToken: String!) {
-  signUp(email: $email, password: $password, firstName: $firstName, lastName: $lastName, recaptchaToken: $recaptchaToken) {
+  signUp(email: $email, password: $password, recaptchaToken: $recaptchaToken) {
     token
   }
 }`;
