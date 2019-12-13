@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="95" viewBox="0 0 113 95">
+  <g id="Group_1" data-name="Group 1" transform="translate(-435 -65)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M55,91H0V0H55V91ZM35.68,25.48c1.072,0,2.183.051,3.3.15a25.949,25.949,0,0,1,2.58.329V58c0,2.429.6,4.176,1.769,5.19a6.625,6.625,0,0,0,4.47,1.53,12.157,12.157,0,0,0,1.38-.09c.534-.062,1.059-.132,1.561-.21a10.559,10.559,0,0,0,1.47-.33,7.516,7.516,0,0,0,1.17-.45l-.48-3.78a9.79,9.79,0,0,1-2.04.54,13.214,13.214,0,0,1-1.74.12,2.494,2.494,0,0,1-2.011-.9,4.731,4.731,0,0,1-.75-3V22.36a16,16,0,0,0-2.19-.419c-.887-.119-1.856-.23-2.88-.33s-2.036-.18-3.03-.24-1.914-.09-2.7-.09c-3.782,0-6.517.908-8.13,2.7S25,28.577,25,32.32V34H20.32v4.2H25V64h4.8V38.2h6.18V34H29.8c0-1.315.051-2.516.15-3.57a7.065,7.065,0,0,1,.75-2.7,3.921,3.921,0,0,1,1.77-1.68A7.475,7.475,0,0,1,35.68,25.48Z" transform="translate(435 65)" fill="#26a222"/>
+    <text id="_fund" data-name=" fund" transform="translate(486 153)" fill="#585858" font-size="24" font-family="PTSans-Regular, PT Sans"><tspan x="0" y="0" xml:space="preserve"> fund</tspan></text>
+    <text id="ex" transform="translate(488 131)" fill="#176f90" font-size="60" font-family="PTSans-Regular, PT Sans"><tspan x="0" y="0">ex</tspan></text>
+  </g>
+</svg>
