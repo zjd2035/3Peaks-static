@@ -1,5 +1,5 @@
 <template>
-  <h1>To be continued, {{ currentUser.firstName }}...</h1>
+  <h1>To be continued, {{ currentUser.email }}...</h1>
 </template>
 
 <script>

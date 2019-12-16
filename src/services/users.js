@@ -4,21 +4,32 @@ export const CURRENT_USER_QUERY = gql`
 query currentUserQuery {
   currentUser {
     email
-    firstName
-    lastName
   }
 }`;
 
 export const SIGNUP_MUTATION = gql`
-mutation SignUpMutation($email: String!, $password: String!, $recaptchaToken: String!) {
-  signUp(email: $email, password: $password, recaptchaToken: $recaptchaToken) {
-    token
+mutation SignUpMutation($input: SignUpInput!) {
+  signUp(input: $input) {
+    token {
+      value
+    }
   }
 }`;
 
 export const LOGIN_MUTATION = gql`
-mutation LoginMutation($email: String!, $password: String!, $recaptchaToken: String!) {
-  login(email: $email, password: $password, recaptchaToken: $recaptchaToken) {
-    token
+mutation LoginMutation($input: LoginInput!) {
+  login(input: $input) {
+    token {
+      value
+    }
+  }
+}`;
+
+export const SET_BUDGET_MUTATION = gql`
+mutation setBudgetMutation($input: SetBudgetInput!) {
+  setBudget(input: $input) {
+    user {
+      email
+    }
   }
 }`;

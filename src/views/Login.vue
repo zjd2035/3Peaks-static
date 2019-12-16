@@ -78,12 +78,14 @@ export default {
       this.$apollo.mutate({
         mutation: LOGIN_MUTATION,
         variables: {
-          email: this.email,
-          password: this.password,
-          recaptchaToken,
+          input: {
+            email: this.email,
+            password: this.password,
+            recaptchaToken,
+          },
         },
       }).then((response) => {
-        sessionStorage.setItem('auth-token', response.data.login.token);
+        sessionStorage.setItem('auth-token', response.data.login.token.value);
         this.$router.push({ name: 'dashboard' });
       }).catch((error) => {
         this.loginError = error.message.replace('GraphQL error:', '').trim();
